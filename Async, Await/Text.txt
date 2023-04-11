@@ -1,0 +1,2 @@
+Async helps in running multiple tasks parallelly
+means loading images ata at a time for eg

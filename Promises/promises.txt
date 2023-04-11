@@ -1,0 +1,33 @@
+there will be 2 parts in promises 
+.production code
+.consuming code
+
+
+let data = 1;
+
+console.warn(data)
+data = 2;
+
+setTimeout(() => {
+    console.log(data);
+}, 3000); 
+
+// set timeout gives out put after given time
+
+
+ data = 3;
+ console.log(data)
+// gives out put as 1,3,3 as settimeout also takes 3 as
+// to resolve that we use promises
+
+
+
+ promises is the solution for callback functions
+ cycle is 
+ > promise is made
+ >1st stage is pending stage
+ > next 2 stages either resolve or reject
+ >>resolve uses .then .i.e. promise chaining
+ >>reject uses .catch i.e. error handling
+ lest see with the example
+
